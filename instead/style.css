@@ -1,23 +1,5 @@
-@import url("https://use.typekit.net/yis0luy.css");
-
 canvas{
     position: fixed;
     top: 0;
     left: 0;
-}
-
-main{
-    .header{
-        position: absolute;
-        top: 0;
-        padding: 20px 0 0 100px;
-    }
-
-    h1{
-        color: #fff;
-        font-family: orbitron, sans-serif;
-        font-size: 95px;
-        margin-bottom: 0;
-        text-shadow: 4px 4px #FB607F;
-    }
 }

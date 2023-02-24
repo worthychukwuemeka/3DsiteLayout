@@ -31,8 +31,7 @@ const ambientLight = new THREE.AmbientLight(0xfffffff);
 scene.add(pointLight, ambientLight)
 
 const lightHelper = new THREE.PointLightHelper(pointLight)
-const gridHelper = new THREE.GridHelper(200, 50);
-scene.add(lightHelper, gridHelper)
+scene.add(lightHelper)
 scene.add(pointLight)
 
 const controls = new OrbitControls(camera, renderer.domElement);
@@ -53,7 +52,7 @@ Array(200).fill().forEach(addStar)
 const spaceTexture = new THREE.TextureLoader().load( 'space.jpg' );
 scene.background = spaceTexture;
 
-const worthyTexture = new THREE.TextureLoader().load('image2.png');
+const worthyTexture = new THREE.TextureLoader().load('pink1.jpg');
 
 const worthy = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
